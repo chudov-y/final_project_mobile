@@ -57,7 +57,7 @@ gradle clean test -DdeviceHost=local
 gradle clean test -DdeviceHost=browserstack
 ```
 
-## Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/final_project_mobile/)
+## Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/22_Bubalov_FinalProject_Mobile/)
 
 #### Главная страница Jenkins
 
@@ -75,7 +75,7 @@ gradle clean test -DdeviceHost=browserstack
 
 Результаты сборки можно посмотреть в Allure отчёте, кликнув на значок <code><strong>*Allure Report*</strong></code>.
 
-## Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/final_project_mobile/9/allure/)
+## Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/22_Bubalov_FinalProject_Mobile/3/allure/)
 
 #### Главная страница Allure Report
 
@@ -95,7 +95,7 @@ gradle clean test -DdeviceHost=browserstack
   <img src="media/screen/allure_graphs.PNG" alt="allure_graphs" width="800">
 </p>
 
-## Интеграция с [Allure TestOps](https://allure.autotests.cloud/launch/18498)
+## Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/3964/dashboards)
 
 #### Тест-кейсы
 
@@ -107,14 +107,6 @@ gradle clean test -DdeviceHost=browserstack
 
 <p align="center">
   <img src="media/screen/dashboards.PNG" alt="dashboards" width="800">
-</p>
-
-## Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-505)
-
-#### Задача в Jira
-
-<p align="center">
-  <img src="media/screen/jira.PNG" alt="jira" width="800">
 </p>
 
 ## Уведомления в Telegram с использованием бота
