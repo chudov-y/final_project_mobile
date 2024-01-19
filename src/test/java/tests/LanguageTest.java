@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Selenide.$$;
 import static io.qameta.allure.Allure.step;
 
-public class LanguageTest {
+public class LanguageTest extends TestBase {
     @Owner("chudov-y")
     @Test
     @DisplayName("Add language")

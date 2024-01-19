@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
 import static io.qameta.allure.Allure.step;
 
-public class OnboardingTest {
+public class OnboardingTest extends TestBase {
     @Owner("chudov-y")
     @Test
     @DisplayName("Onboarding screen")
