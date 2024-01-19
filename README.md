@@ -65,7 +65,7 @@ gradle clean test -DdeviceHost=browserstack
   <img src="media/screen/jenkins_mainpage.PNG" alt="Jenkins" width="800">
 </p>
 
-Для запуска сборки необходимо нажать кнопку <code><strong>*Собрать сейчас*</strong></code>.
+Для запуска сборки необходимо нажать кнопку <code><strong>*Build with Parameters*</strong></code>.
 
 #### Значок Allure Report
 
