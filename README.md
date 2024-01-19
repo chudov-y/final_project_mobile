@@ -75,7 +75,7 @@ gradle clean test -DdeviceHost=browserstack
 
 Результаты сборки можно посмотреть в Allure отчёте, кликнув на значок <code><strong>*Allure Report*</strong></code>.
 
-## Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/22_Bubalov_FinalProject_Mobile/3/allure/)
+## Отчет о результатах тестирования в [Allure Report](https://jenkins.autotests.cloud/job/22_Bubalov_FinalProject_Mobile/allure/)
 
 #### Главная страница Allure Report
 
