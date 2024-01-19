@@ -20,10 +20,10 @@ public class TestBase {
 
     @BeforeAll
     static void beforeAll() {
+        Configuration.browserSize = null;
         Configuration.browser = deviceHost.equals("browserstack") ?
                 BrowserstackDriver.class.getName() :
                 LocalDriver.class.getName();
-        Configuration.browserSize = null;
         Configuration.timeout = 30000;
     }
 
